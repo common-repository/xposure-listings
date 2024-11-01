@@ -1,0 +1,16 @@
+#xp-block-settings-container{
+	padding: 0 15px 15px 15px;
+}
+
+#xp-block-settings-container .heading{
+	font-weight: bold;
+	margin: 20px 0 5px 0;
+}
+
+#xp-block-settings-container .heading:first-of-type{
+	margin-top: 0;
+}
+
+#xp-block-settings-container label{
+	display: block;
+}

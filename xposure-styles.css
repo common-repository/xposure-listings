@@ -1,0 +1,75 @@
+.xp-listings-container .xp-listing{
+	margin: 0 0 20px 0;
+	position: relative;
+}
+.xp-listings-container .xp-listing:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.xp-listings-container .xp-name{
+	display: block;
+}
+.xp-listings-container .xp-price{
+	display: block;
+}
+.xp-listings-container .xp-bed{
+	display: inline-block;
+	margin:0 10px 0 0;
+}
+.xp-listings-container .xp-bath{
+	display: inline-block;
+}
+
+/* These additional fields are hidden by default. They may be shown using your override stylesheet */
+.xp-listings-container .xp-lot, .xp-listings-container .xp-floor, .xp-listings-container .xp-year,
+.xp-listings-container .xp-park, .xp-listings-container .xp-tax, .xp-listings-container .xp-taxyear,
+.xp-listings-container .xp-type, .xp-listings-container .xp-mls{
+	display: none;
+}
+.xp-listings-container .xp-description{
+	margin: 5px;
+}
+.xp-listings-container img.xp-image{
+	float: left;
+	margin: 0 12px 0 0;
+	border:0;
+	width: 250px;
+}
+.xp-listings-container .xp-soldlabel{
+	display: block;
+	position: absolute;
+	top:0;
+	left:0;
+	color:#fff;
+	background:red;
+	font-size: 12px;
+	padding: 1px 4px;
+}
+.xp-listings-container .xp-pendinglabel{
+	display: block;
+	position: absolute;
+	top:0;
+	left:0;
+	color:#fff;
+	background:#4ab44a;
+	font-size: 12px;
+	padding: 1px 4px;
+}
+
+.xp-listings-container .xp-recip {
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-repeat: no-repeat;
+}
+
+.xp-listings-container .xp-recip.victoria{
+	background-image: url('https://realtyhd.com/XposurePublicIncludes/img/vreb.png');
+	background-size: 50px;
+	width: 50px;
+    height: 27px;
+}
